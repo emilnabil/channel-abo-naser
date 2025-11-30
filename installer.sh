@@ -1,11 +1,11 @@
 #!/bin/sh
 #
 # Command:
-# wget https://raw.githubusercontent.com/emilnabil/channel-abo-naser/main/installer.sh -qO - | /bin/sh
+# wget https://raw.githubusercontent.com/emilnabil/channel-abo-naser/refs/heads/main/installer.sh -qO - | /bin/sh
 #
 # ###########################################################
 
-MY_URL="https://raw.githubusercontent.com/emilnabil/channel-abo-naser/main"
+MY_URL="https://raw.githubusercontent.com/emilnabil/channel-abo-naser/refs/heads/main"
 
 echo "******************************************************************************************************************"
 echo "        DOWNLOAD AND INSTALL CHANNEL"
@@ -58,6 +58,7 @@ else
 fi
 
 exit 0
+
 
 
 
